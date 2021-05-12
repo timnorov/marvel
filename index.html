@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The World of MARVEL</title>
+  </head>
+  <body>
+    <header>
+      <div class="movie-logo"></div>
+      <img class="marvel-logo" src="img/marvel.png" alt="Marvel logo" />
+      <div class="box"></div>
+      <div class="curve">
+        <div class="left"><div></div></div>
+        <div class="center"></div>
+        <div class="right"><div></div></div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <canvas id="myCanvas"> You're Browser Doesn't Support Canvas :( </canvas>
+      <!-- <audio id="pageFlip" muted="muted" allow="autoplay">
+      <source src="audio/marvel.mp3" type="audio/mpeg"></source>
+  </audio> -->
+    </div>
+    <div class="bg">
+      <div class="container">
+        <div class="arrow-down">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="header-menu">
+          <label for="movieSelect">Choose a movie</label>
+          <div class="select-border">
+            <select id="movieSelect" class="select" size="24">
+              <option selected value>All MOVIES</option>
+            </select>
+          </div>
+          <label for="genderSelect">Choose a gender</label>
+          <div class="select-border">
+            <select id="genderSelect" class="select" size="3">
+              <option selected value>All GENDERS</option>
+            </select>
+          </div>
+          <label for="statusSelect">Choose a status</label>
+          <div class="select-border">
+            <select id="statusSelect" class="select" size="5">
+              <option selected value>All STATUSES</option>
+            </select>
+          </div>
+        </div>
+        <section class="main"></section>
+      </div>
+    </div>
+    <footer>
+      <div class="curve">
+        <div class="left"><div></div></div>
+        <div class="center"></div>
+        <div class="right">
+          <div></div>
+        </div>
+      </div>
+      <div class="box"></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
